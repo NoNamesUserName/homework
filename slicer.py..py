@@ -12,6 +12,20 @@ slicer.py.
 
 
 """
+Title 
+"""
+print ("Slicer")
+print("__________________________________________________")
+print("")
+input ("Press enter to start:")
+
+print("__________________________________________________")
+print("")
+"""
+Title 
+"""
+
+"""
 Variables
 """
 # Users 1st Input 
@@ -93,3 +107,4 @@ Output
 
 
          
+
