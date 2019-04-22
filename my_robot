@@ -1,0 +1,32 @@
+class robot:
+    def __init__(self,name,color,language,mobile):
+        self.name=name
+        self.color=color
+        self.language=language
+        self.mobile=mobile
+    def __str__(self):
+        rep = "Robot object\n"
+        rep += "\n name: <"+ self.name + ">,|color: <" + self.color + "> |language <" + self.language + "> |mobile? <" + self.mobile + ">\n"
+        return rep  
+    def introduce_self(self):
+        print("\n My name is <{}>, I am <{}>, and I speak <{}>, and I am mobile? <{}>\n".format(rob.name, rob.color, rob.language, rob.mobile))
+
+name=input("Name: ")
+color=input("Color: ")
+language=input("Language: ")
+mobile=input("Mobile: ")
+
+rob=robot(name,color,language,mobile)
+rob.introduce_self()
+print(rob)
+
+
+
+name=input("Name: ")
+color=input("Color: ")
+language=input("Language: ")
+mobile=input("Mobile: ")
+
+rob=robot(name,color,language,mobile)
+rob.introduce_self()
+print(rob)
